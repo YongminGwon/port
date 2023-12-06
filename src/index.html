@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Computer Vision Engineer Portfolio"/>
+    <meta name="keyword" content="Portfolio" />
+    <title>Computer Vision Engineer Portfolio</title>
+
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div id="skip">
+        <a href="#header">헤더 영역 바로가기</a>
+        <a href="#intro">소개 영역 바로가기</a>
+        <a href="#skill">스킬 영역 바로가기</a>
+        <a href="#site">사이트 영역 바로가기</a>
+        <a href="#port">포트폴리오 영역 바로가기</a>
+        <a href="#contact">연락처 영역 바로가기</a>
+        <a href="#footer">푸터 영역 바로가기</a>
+    </div>
+    <!-- //skip -->
+
+    <header id="header" role="banner">
+        <div class="header__inner">
+            <div class="header__logo">
+                <h1>
+                    <a href="#">gwon yongmin<em>made with vite</em></a>
+                </h1>
+            </div>
+            <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#port">portfolio</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div 
+                class="header__nav__mobile" 
+                id="headerToggle" 
+                aria-controls="primary-menu" 
+                aria-expanded="false" 
+                role="button"
+                tabindex="0"
+            >
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+    
+    <main id="main" role="main">
+        <section id="intro">
+            <div class="intro__inner">
+                <h2 class="intro__title">
+                    Portfolio
+                </h2>
+                <div class="intro__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="intro__text">
+                    <div class="text">
+                        <div>Continual Learner</div>
+                        <div>Insightful engineer</div>
+                    </div>
+                    <div class="img">
+                        <img src="assets/img/about.jpg" alt="어바웃미">
+                    </div>
+                    <div class="intro__lines bottom" aria-hidden="true">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="introduction"><br>My porfolio includes three Computer Vision projects on different topics.</div>
+        </section>
+        <!-- //intro -->
+
+        <section id="port">
+            <div class="port__inner">
+                <h2 class="port__title">
+                    projects <em></em>
+                </h2>
+                <div class="port__wrap">
+                    <article class="port__item p1">
+                        <span class="num">01.</span>
+                        <h3 class="title">불법 우회전 감지 시스템 구축</h3>
+                        <p class="desc">
+                            CCTV 영상에서 불법 우회전하는 차량을 검지하는 프로그램 생성.<br>
+                            Autolabeling을 이용해 labeled data생성. <br>
+                            검지된 차량의 사진과 시간을 저장<br>
+                            <br><b>Used Skill : </b> Python, OpenCV, Pytorch
+                        </p>
+                    </article>
+                    <article class="port__item p2">
+                        <span class="num">02.</span>
+                        <h3 class="title">Visual Odometry 구현</h3>
+                        <p class="desc">
+                            Feature based SLAM (ORB feature extractor)<br>
+                            <br>
+                            <b>Used Skill : </b> Python, OpenCV, SDL2, Camera Geometry, Linear Algebra
+                        </p>
+                        <a href="https://github.com/YongminGwon/ToySLAM" target="_blank" class="site">github 링크</a>
+                    </article>
+                    <article class="port__item p3">
+                        <span class="num">03.</span>
+                        <h3 class="title">컴퓨터비전을 활용한 manipulator 제어</h3>
+                        <p class="desc">
+                            - Coordinate Transformation<br>
+                            - Object Detection<br>
+                            - 3d object pose estimation<br>
+                            - Synthetic Data generation<br><br>
+                            <b>Used Skill :</b> Python, Unreal Engine, OpenCV, Pytorch
+                        </p>
+                    </article>                    
+                </div>
+                <div class="port_add">Other Skills not featured : mmdetection, Tensorflow, NLP</div>
+            </div>
+        </section>
+        <!-- //port -->
+        <section id="skill">
+        
+        </section> 
+        <!-- //skill -->
+
+        <section id="contact">
+            <div class="contact__inner">
+                <h2 class="contact__title">Contact</h2>
+                <div class="contact__lines top" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="contact__text">
+                    <div class="text">
+                        <div>
+                            <div class="Email">Email : clumsyrhymer@gmail.com</div>
+                        </div>
+                        <div>
+                            <div class="HP">H.P : 010-9083-8479</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- //contact -->
+    </main>
+    <!-- //main -->
